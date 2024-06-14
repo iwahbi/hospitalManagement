@@ -1,0 +1,140 @@
+/* Style pour le corps de la page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Style pour l'en-tête */
+h1 {
+  color: #000;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Style pour la section principale */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+.section {
+  flex: 1;
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les tableaux */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease; /* Ajout de la transition au survol */
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Ajout de l'effet de survol pour les lignes de tableau */
+tr:hover {
+  background-color: #f5f5f5; /* Couleur de fond au survol */
+  cursor: pointer; /* Curseur de type main au survol */
+}
+
+
+/* Style pour la section supérieure */
+.top-section {
+  display: flex; /* Utilisez Flexbox pour aligner horizontalement les composants */
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si l'espace est insuffisant */
+}
+
+/* Style pour les cartes */
+.top-card {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  margin: 10px; /* Ajoutez une marge pour séparer les cartes horizontalement */
+}
+
+/* Appliquez ce style uniquement au carreau "Nombre de Patients" */
+.green-bg {
+  background-color: #4caf50;
+}
+
+/* Appliquez ce style uniquement au carreau "Nombre de Lits" */
+.blue-bg {
+  background-color: #2196f3;
+}
+
+/* Appliquez ce style uniquement au carreau "Nombre de Cas d'Urgence" */
+.red-bg {
+  background-color: #f44336;
+}
+
+/* Appliquez ce style uniquement au carreau "Nombre de Médecins" */
+.yellow-bg {
+  background-color: #ffff00;
+}
+
+/* Style pour les graphiques */
+.recharts-wrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style pour les boutons ou les liens */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1e87e0;
+}
+
+/* Style pour les images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style pour les titres de section */
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #333;
+}
+
+
